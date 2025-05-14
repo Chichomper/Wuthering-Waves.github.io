@@ -1,0 +1,176 @@
+@font-face {
+    font-family: "Payback";
+    src: url("PaybAck.ttf");
+  }
+  *{
+    font-family:"Payback";
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  #home {
+    margin-top: 0%;
+    padding-bottom: 0%;
+  }
+  #plot {
+    margin-top: 0%;
+    padding-bottom: 0%;
+  }
+  #team {
+    margin-top: 0%;
+    padding-bottom: 0%;
+  }
+  #characters {
+    margin-top: 0%;
+    padding-bottom: 0%;
+  }
+  #reviews {
+    margin-top: 0%;
+    padding-bottom: 0%;
+  }
+  
+  .button {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 30%;
+    border-radius: 16px;
+    transition-duration: 0.4s;
+  }
+  .button:hover {
+    background-color: rgb(204, 193, 110);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+      0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .Title {
+    
+    font-size: 250px;
+    color: rgb(0, 0, 0);
+    line-height: 1;
+    text-shadow: 5px 2px 0px rgb(62, 44, 117);
+  }
+  
+  .Heading {
+    font-size: 90px;
+    text-shadow: 3px 2px 0px rgb(255, 255, 255);
+    line-height: 0.6;
+    text-align: center;
+    margin: 40px;
+    animation: goofy 1.2s;
+    animation-delay: 3s;
+
+  }
+  .Description {
+  
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    line-height: 0.5;
+    letter-spacing: 2px;
+  }
+  #Director {
+   
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    line-height: 0.5;
+    letter-spacing: 2px;
+  }
+  .nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #727272;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  h2 {
+    
+    font-size: 60px;
+    color: rgb(62, 44, 117);
+    margin: 40px;
+    line-height: 1;
+    text-shadow: 5px 2px 0px rgb(17, 17, 17);
+  }
+  h3 {
+    
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 2px 0px rgb(62, 44, 117);
+    margin: 40px;
+    line-height: 1;
+  }
+  p {
+    
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin: 100px;
+    padding: 5px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 35px;
+    transition-duration: 0.4s;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #d8d8d8;
+  }
+  
+  .active {
+    background-color: rgb(62, 44, 117);
+  }
+  .review {
+    background-color: rgb(39, 39, 39);
+    border: 5px solid, rgb(9, 9, 9);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 24px;
+  }
+  
+  body {
+    background-image: url("Black\ Shores.webp");
+
+    color: rgb(67, 0, 119);
+   animation: goofy 1.2s;
+    font-size: 30px;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  @keyframes goofy {
+    from {
+      bottom: -200px;
+      opacity: 0;
+    }
+    to {
+      bottom: 0;
+      opacity: 1;
+    }
+}
